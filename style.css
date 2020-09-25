@@ -1,0 +1,324 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* for navbar, logo and links */
+
+a {
+    color: #84798E;
+    text-decoration: none;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 18px;
+}
+
+a:hover {
+    color: #3F304F;
+    font-weight: bold;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    padding: 2rem 7rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.06);
+    position: relative;
+    overflow: hidden;
+}
+
+.navbar > :first-child {
+    margin-right: auto;
+}
+
+.navbar > :first-child a {
+    margin-right: 0;
+}
+
+.navbar li a {
+    background-color: white;
+    padding: 10px;
+    margin-right: 0.5rem;
+}
+
+/* Main headline, product box and buttons */
+
+main {
+    padding-top: 1rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-bottom: 3rem;
+   background-color: #F9F6F6;
+}
+
+main p {
+    font-size: 40px;
+    line-height: 15px;
+    margin-left: 50px;
+    color: #868587;
+    font-family: 'Dokdo', cursive;
+    background-color: #F9F6F6;
+    position: absolute;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 36px;
+    line-height: 35px;
+    text-align: center;
+    color: #90B57F;
+    font-family: 'Dokdo', cursive;
+    padding-top: 34px;
+    padding-bottom: 34px;
+    margin: 20px;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 2px;
+    padding-right: 66px;
+    padding-left: 57px;
+}
+
+.planta{
+    display: inline-block;
+    margin: 25px;
+    background-color: white;
+    box-shadow: 0px 3.89855px 3.89855px rgba(0, 0, 0, 0.25);
+}
+
+.planta .name {
+    font-family: 'Dokdo', cursive;
+    font-size: 20px;
+    text-align: center;
+}
+
+ .btn {
+    background: #84798E;
+    box-shadow: 0px 4px 4px #E5E5E5;
+    border-radius: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    width: 100px;
+    margin: 10% auto;
+    padding: 2%;
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.btn a {
+    color: #F9F6F6;
+}
+
+.btn:hover {
+    background-color: #936686;
+}
+
+.button {
+    background: #DBE1C9;
+    box-shadow: 0px 4px 4px #E5E5E5;
+    border-radius: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    width: 259px;
+    margin: 50px auto ;
+    padding: 7px;
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.button:hover {
+    box-shadow: 0px 6px 6px #d5d5d5;
+}
+
+/* lover part of the website, text and image */
+
+section{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+section h1 {
+    text-align: left;
+    padding-left: 30px;
+}
+
+section p {
+    font-family: 'Patrick Hand', cursive;
+     font-size: 18px;
+     line-height: 25px;
+     color: #868587;
+     padding-right: 66px;
+     padding-left: 57px;
+     size: fixed;
+     padding-bottom: 3rem;
+}
+
+section .colums {
+    column-count: 2;
+}
+
+section img {
+    width: 307px;
+    height: 308.34px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+}
+
+/* Footer section  */
+
+.footer {
+    display: flex;
+    list-style: none;
+    padding: 2rem 7rem;
+    position: relative;
+}
+
+.footer > :first-child {
+    margin-right: auto;
+}
+
+.footer > :first-child a {
+    margin-right: 0;
+}
+
+.footer li a {
+    background-color: white;
+    padding: 10px;
+    margin-right: 0.5rem;
+}
+
+ .footer .fa{
+        color: white;
+        background-color:#868587; 
+        border-radius: 50%;
+        margin: 0, auto;
+}
+
+.fa:hover {
+        opacity: 0.7;
+}
+
+
+/* our story page  */
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    justify-content: space-around;
+  }
+
+ .flex-container .textbox {
+     padding-top: 3rem;
+     width: 532px;
+     font-family: 'Patrick Hand', cursive;
+     font-size: 18px;
+     line-height: 19px;
+     color: #868587;
+     padding-right: 66px;
+     padding-left: 57px;
+     size: fixed;
+     padding-bottom: 3rem;
+ }
+
+ .flex-container img {
+     padding-top: 4rem;
+     padding-bottom: 3rem;
+ }
+
+ .flex-container .textbox .space {
+    line-height: 20px;   
+    margin-bottom: 30px;
+ }
+
+ .flex-container .signature {
+    font-family: 'Zeyada', cursive;
+    font-size: 24px;
+ }
+
+/* Product page */
+
+
+.product-text{
+    padding-top: 3rem;
+    width: 532px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 18px;
+    line-height: 19px;
+    color: #868587;
+    padding-right: 66px;
+    padding-left: 57px;
+    size: fixed;
+    padding-bottom: 3rem;
+    display: table;
+    flex-wrap: wrap;
+ }
+
+ .product-text .space {
+    line-height: 20px;   
+    margin-bottom: 30px;
+ }
+ 
+
+/* contact page  */
+
+
+input[type=text], select, textarea {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 18px;
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #F9F6F6; 
+    border-radius: 4px; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box; 
+    margin-top: 1rem; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  input[type=send] {
+        background-color: #DBE1C9;
+        color: #84798E;
+        box-shadow: 0px 4px 4px #E5E5E5;
+        border-radius: 20px;
+        font-size: 18px;
+        cursor: pointer;
+        width: 100px;
+        margin: 10%;
+        padding: 1%;
+        margin: 0 auto;
+        text-align: center;
+        font-family: 'Patrick Hand', cursive;
+    }
+    
+  input[type=send]:hover {
+    color: #84798E;
+    box-shadow: 0px 6px 6px #d5d5d5;
+    font-style: bold;
+  }
+  
+  .contactbox {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 18px;
+    line-height: 25px;
+    color: #868587;
+    padding: 20px;
+  }
+  
+  
+  
+
+    
+    
+
+
+  
